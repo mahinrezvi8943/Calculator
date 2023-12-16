@@ -1,0 +1,109 @@
+html{
+    box-sizing: border-box;
+    height: 100%;
+}
+
+*, 
+*::before,
+*::after{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    align-items: center;
+    background: linear-gradient(320deg, #7d36b7, #78bcff, #63c9b4);
+    display: flex;
+    font-family:'Dosis', sans-serif;
+    font-display: swap;
+    height: inherit;
+    justify-content: center;
+}
+
+.wrapper{
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    border-radius: 15px;
+    box-shadow: 0 4px 30px rgba(30, 30, 30, 0.1);
+    color: #23232323;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(4px);
+    background: rgba(255, 255, 255, .30);
+    border: 1px solid rgba(255, 255, 255, .34);
+    flex-basis: 400px;
+    height: 550px;
+    padding: 30px 35px;
+    
+}
+
+.screen{
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.837);
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(30, 30, 30, 0.1);
+    color:#000000f0;
+    font-size: 35px;
+    overflow: auto;
+    padding: 12px;
+    text-align: right;
+    width: 350px;
+    gap: 10px;
+}
+.calc-button-row {
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 0;
+  }
+  
+.calc-button {
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: rgba(255, 255, 255, .75);
+    border: 1px solid rgba(255255, 255, 255, 0.01);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, .1);
+    color: #232323;
+    flex-basis: 20%;
+    font-family: inherit;
+    font-size: 24px;
+    height: 65px;
+}
+
+.calc-button:last-child{
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: #6bbfd8;
+    border: 1px solid rgba(255255, 255, 255, 0.01);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, .1);
+    color: #090909;
+    flex-basis: 20%;
+    font-family: 'Inter', mono;
+    font-size: 24px;
+    height: 65px;
+}
+
+.calc-button:last-child:hover{
+    background-color: inherit;
+    color: inherit;
+}
+
+.special{
+    background-color:#fb5230d0
+}
+
+.calc-button:hover{
+    background-color: inherit;
+}
+
+.calc.button:active{
+    background-color: #ffef78;
+}
+
+.double{
+    flex-basis: 47%;
+}
+
